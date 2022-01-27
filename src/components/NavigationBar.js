@@ -41,6 +41,7 @@ function NavigationBar(props){
         <CameraIcon sx={{ mr: 2 }} />
         <Typography variant="h6" color="inherit" noWrap>
           Album layout
+          CV
         </Typography>
       </Toolbar>
     </AppBar>

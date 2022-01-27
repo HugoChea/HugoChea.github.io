@@ -7,6 +7,7 @@ import Stack from '@mui/material/Stack';
 import Button from '@mui/material/Button';
 
 import Typewriter from 'typewriter-effect';
+import avatar from "../images/hugo_chea.png";
 
 import {
     header
@@ -26,6 +27,14 @@ function Header() {
             }}
         >
             <Container maxWidth="sm">
+                <Stack
+                    sx={{ pt: 4 }}
+                    direction="row"
+                    spacing={2}
+                    justifyContent="center"
+                >
+                    <img src={avatar} alt="Logo" />
+                </Stack>
                 <Typography
                     component="h1"
                     variant="h2"
@@ -33,7 +42,16 @@ function Header() {
                     color="text.primary"
                     gutterBottom
                 >
-                    Album layout
+                    Hugo CHEA
+                </Typography>
+                <Typography
+                    component="h4"
+                    variant="h4"
+                    align="center"
+                    color="text.primary"
+                    gutterBottom
+                >
+                    Développeur web
                 </Typography>
                 <Typography component={'span'} variant="h5" align="center" color="text.secondary" paragraph>
                     <Typewriter

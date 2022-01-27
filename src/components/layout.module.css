@@ -3,5 +3,9 @@
 }
 
 .about{
-    background-color: red;
+    background-color: #F6F6F6;
+}
+
+.cover{
+    max-width: 100%;
 }
